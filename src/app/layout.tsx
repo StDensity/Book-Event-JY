@@ -7,7 +7,6 @@ const interFont = Inter({
   subsets: ["latin"],
 });
 
-
 export const metadata: Metadata = {
   title: "Book Event",
   description: "Book your events with us",
@@ -20,9 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${interFont.variable} antialiased`}
-      >
+      <body className={`${interFont.variable} font-inter antialiased`}>
         {children}
       </body>
     </html>
