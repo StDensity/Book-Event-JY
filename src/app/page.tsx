@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     description: "Learn how to buy NFT in India. All about NFT marketplaces",
     images: [
       {
-        url: "/images/Hero.png",
+        url: "https://raw.githubusercontent.com/StDensity/Book-Event-JY/refs/heads/master/public/images/hero.png",
         width: 1200,
         height: 630,
         alt: "NFT Workshop",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "NFT Workshop - Book Event",
     description: "Learn how to buy NFT in India. All about NFT marketplaces",
-    images: ["/images/Hero.png"],
+    images: ["https://raw.githubusercontent.com/StDensity/Book-Event-JY/refs/heads/master/public/images/hero.png"],
   },
 };
 
