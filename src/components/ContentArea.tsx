@@ -152,7 +152,7 @@ const ContentArea = () => {
                 <div className="pt-12 md:pt-16">
                   <div className="md:flex md:gap-2 md:text-xl">
                     <p className="text-accent-primary font-light">
-                      Don't see the answer you're looking for?
+                      Don&apos;t see the answer you&apos;re looking for?
                     </p>
                     <p className="text-accent-primary font-bold">
                       Post Your Question

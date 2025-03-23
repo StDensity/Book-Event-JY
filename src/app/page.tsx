@@ -1,6 +1,5 @@
 import ContentArea from "@/components/ContentArea";
 import Hero from "@/components/Hero";
-import Navbar from "@/components/Navbar";
 import RegisterFooter from "@/components/RegisterFooter";
 
 export default function Home() {
