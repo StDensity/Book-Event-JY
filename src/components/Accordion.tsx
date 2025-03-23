@@ -12,12 +12,12 @@ const Accordion = ({ title, content }: AccordionProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="rounded-lg bg-white p-4 shadow-lg">
+    <div className="rounded-lg bg-white p-4 shadow-sm">
       <div
         onClick={() => setIsOpen(!isOpen)}
         className="flex items-center justify-between font-semibold"
       >
-        <p>{title}</p>
+        <p className="md:text-lg">{title}</p>
         <div>
           {isOpen ? (
             <ChevronUp className="stroke-accent-primary" />
@@ -28,7 +28,9 @@ const Accordion = ({ title, content }: AccordionProps) => {
       </div>
       {isOpen && (
         <div className="pt-2">
-          <p className="text-text-secondary font-normal">{content}</p>
+          <p className="text-text-secondary font-normal md:text-lg">
+            {content}
+          </p>
         </div>
       )}
     </div>
