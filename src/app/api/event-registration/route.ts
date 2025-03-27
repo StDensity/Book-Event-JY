@@ -38,3 +38,13 @@ export const POST = async (request: Request) => {
     return NextResponse.json({ status: "error", error }, { status: 400 });
   }
 };
+
+export const GET = async (request: Request) => {
+  try {
+    const registrations = await prisma.registration.findMany();
+    return NextResponse.json({ registrations });
+  } catch (error) {
+    console.log(error);
+    return NextResponse.json({ status: "error", error }, { status: 400 });
+  }
+};
